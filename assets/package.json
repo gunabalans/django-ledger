@@ -29,10 +29,15 @@
     "webpack": "^5.33.2",
     "webpack-cli": "^4.6.0"
   },
+  "main": "../django_ledger/static/django_ledger/bundle/djetler.bundle.js",
+  "overrides": {
+    "color-convert": "2.0.1",
+    "color-name": "1.1.4",
+    "source-map": "0.7.4"
+  },
+  "packageManager": "yarn@3.4.1",
   "scripts": {
     "build": "webpack",
     "watch": "webpack --watch"
-  },
-  "main": "../django_ledger/static/django_ledger/bundle/djetler.bundle.js",
-  "packageManager": "yarn@3.4.1"
+  }
 }
