@@ -1,8 +1,8 @@
 -i https://pypi.org/simple
 asgiref==3.7.2 ; python_version >= '3.7'
-django==4.2.11
+django==5.0.3
 django-treebeard==4.5.1
-faker==8.16.0
+faker==24.0.0
 markdown==3.3.7
 ofxtools==0.9.5
 pillow==10.0.1
